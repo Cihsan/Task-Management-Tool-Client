@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Inventory Site",
+    
+    "done": "Add/Update/Delete items",
+    "dtwo": "Display Added your Items",
+    "dthree": "Two ways login available,Responsive",
+
+    "img1": "https://i.ibb.co/HTw3gJQ/add2.png",
+    "img2": "https://i.ibb.co/VHrT9x9/items2.png",
+    "img3": "https://i.ibb.co/S0fmdB9/login2.png",
+    "img4": "https://i.ibb.co/XYKxS50/main2.png",
+    "img5": "https://i.ibb.co/S0fmdB9/login2.png",
+    
+    "tools": "Tools: React, React-Bootstrap, React-Icons, React-Router, Toastify, Firebase, AOS, Axios, JWT, MongoDB, React-Firebase-Hooks",
+    "live": "https://goods-store-49d6a.web.app/",
+    "client": "https://github.com/Cihsan/warehouse-management-client-11",
+    "server": "https://github.com/Cihsan/warehouse-management-server-11"
+  },
+  {
+    "name": "Manufacturer Site",
+
+    "done": "Admin & User DashBoard,Payment",
+    "dtwo": "Admin Manage Items & user, Make Admin",
+    "dthree": "User Update Profile & Submit Review",
+    
+    "img1": "https://i.ibb.co/85crL53/main1.png",
+    "img2": "https://i.ibb.co/j51Dnn3/manage.png",
+    "img3": "https://i.ibb.co/vhwMk5T/review.png",
+    "img4": "https://i.ibb.co/y6nDYqG/blog.png",
+    "img5": "https://i.ibb.co/R7JMsJB/team.png",
+
+    "tools": "Tools: React, DaisyUI, Tailwind, React-Icons, React-Router, Toastify, Firebase, JWT, MongoDB, NodeJsS, Stripe, React-Firebase-Hooks,",
+    "live": "https://manufacturer-a7f2a.web.app/",
+    "client": "https://github.com/Cihsan/manufacturer-client-12",
+    "server": "https://github.com/Cihsan/manufacturer-server-12"
+  },
+  {
+    "name": "Personal Service",
+
+    "done": "Sevices,Charts,Reviews",
+    "dtwo": "Vanilla CSS,Responsive",
+    "dthree": "Dynamic Ratings, Two Login",
+
+    "img1": "https://i.ibb.co/0rkCJnn/chart3.png",
+    "img2": "https://i.ibb.co/kxzFYrg/main3.png",
+    "img3": "https://i.ibb.co/d75DSmX/review3.png",
+    "img4": "https://i.ibb.co/5Y6QwHj/service3.png",
+    "img5": "https://i.ibb.co/d75DSmX/review3.png",
+
+    "tools": "Tools: React, Bootstrap, React-Router, Firebase, Rechart, React-Firebase-Hooks,",
+    "live": "https://electrical-solution-e0837.web.app/",
+    "client": "https://github.com/Cihsan/independent-service-provider-10",
+    "server": "https://github.com/Cihsan/independent-service-provider-10"
+  }
+]
