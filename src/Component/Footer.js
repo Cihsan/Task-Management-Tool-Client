@@ -1,15 +1,18 @@
 import React from 'react';
-import { BsGithub } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
+//import { BsGithub } from 'react-icons/bs';
+//import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div>
-            <footer class="footer footer-center p-10 bg-black text-base-content rounded">
+        <div style={{bottom:'0'}}>
+            <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+                <div>
+                    <p>Copyright © 2023 - All right reserved by Task Management Tool</p>
+                </div>
+            </footer>
+            {/* <footer class="footer footer-center p-10 bg-black text-base-content rounded">
                 <div class="grid grid-flow-col gap-2">
                     <a href='/about-me'  class="btn-lg text-gray-400 link-hover">About me</a>
-                    <a href='/contact'  class="btn-lg text-gray-400 link-hover">Contact me</a>
-                    <a href='/blogs'  class="btn-lg text-gray-400 link-hover">Blogs</a>
                 </div>
                 <div>
                     <div class="grid grid-flow-col gap-4">
@@ -22,7 +25,7 @@ const Footer = () => {
                 <div>
                     <p>Copyright © 2023 - All right reserved by Chowdhury Ihsan</p>
                 </div>
-            </footer>
+            </footer> */}
         </div>
     );
 };

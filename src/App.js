@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from '../src/Component/Footer'
 import Header from './Component/Header';
 import Home from './Pages/Home';
 import Calendar from './Pages/Calendar';
@@ -17,7 +16,7 @@ function App() {
         <Route path='/completed-task' element={<CompleteTask/>}/>
         <Route path='/calendar' element={<Calendar/>}/>
       </Routes>
-      <Footer></Footer>
+      
     </div>
   );
 }

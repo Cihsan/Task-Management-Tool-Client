@@ -30,7 +30,7 @@ const Header = () => {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/to-do'>To-Do</Link></li>
                         <li><Link to='/completed-task'>Completed-Task</Link></li>
-                        <li><Link to='/Calendar'>Calendar</Link></li>
+                        <li><Link to='/calendar'>Calendar</Link></li>
                     </ul>
                 </div>
             </div>
