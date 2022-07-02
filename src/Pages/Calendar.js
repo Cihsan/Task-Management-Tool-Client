@@ -8,7 +8,7 @@ const Calendar = () => {
 
     let footer = <p>Please Choose a day.</p>;
     if (date) {
-        footer = <p className='p-5 text-pink-500 border border-1'>Choosen The Date {format(date, 'PP')}.</p>;
+        footer = <p className='p-5 text-pink-500 border border-1 mt2'>Choosen The Date <span className='font-bold pl-1'>{format(date, 'PP')}.</span> </p>;
     }
     
     return (

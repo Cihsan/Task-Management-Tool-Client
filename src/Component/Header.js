@@ -18,7 +18,7 @@ const Header = () => {
                             {/* <li><Link to='#'>Projects</Link></li> */}
                         </ul>
                     </div>
-                    <Link to='/' class="btn btn-ghost normal-case text-xl">Task Management Tool</Link>
+                    <Link to='/' class="btn btn-ghost normal-case text-xl">Todo Task</Link>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">

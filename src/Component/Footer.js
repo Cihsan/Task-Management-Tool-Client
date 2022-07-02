@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div style={{bottom:'0'}}>
+        <div style={{ bottom: '0' }}>
             <footer className="footer footer-center p-4 bg-base-300 text-base-content">
                 <div>
                     <p>Copyright © 2023 - All right reserved by Task Management Tool</p>
