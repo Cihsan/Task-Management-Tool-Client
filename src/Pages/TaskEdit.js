@@ -6,7 +6,7 @@ const TaskEdit = () => {
     const [task, settask] = useState([])
     console.log(task);
     useEffect(() => {
-        fetch(`https://whispering-wildwood-58003.herokuapp.com/${id}`)
+        fetch(`https://task-management-ixa4.onrender.com/${id}`)
             .then(res => res.json())
             .then(data => settask(data))
     }, [task,id])
@@ -15,7 +15,7 @@ const TaskEdit = () => {
 
         //console.log(taskNam);
 
-        const url = `https://whispering-wildwood-58003.herokuapp.com/${id}`
+        const url = `https://task-management-ixa4.onrender.com/${id}`
         fetch(url, {
             method: 'PUT',
             body: JSON.stringify({ taskName }),
