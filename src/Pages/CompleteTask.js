@@ -4,7 +4,7 @@ const CompleteTask = () => {
     const [tasks, setTasks] = useState([])
     const { status } = tasks
     useEffect(() => {
-        const url = `https://whispering-wildwood-58003.herokuapp.com?status=${status}`
+        const url = `https://task-management-ixa4.onrender.com?status=${status}`
         fetch(url, {
             method: 'GET',
         })
