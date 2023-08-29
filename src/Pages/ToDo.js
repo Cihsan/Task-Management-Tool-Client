@@ -11,7 +11,7 @@ const ToDo = () => {
         const ask = window.confirm('Have you Finished the task')
         if (ask) {
             const status = 'done'
-            const url = `http://localhost:5000/to-dos/${id}`
+            const url = `https://task-management-ixa4.onrender.com/to-dos/${id}`
             fetch(url, {
                 method: 'PUT',
                 body: JSON.stringify({ status }),
@@ -29,7 +29,7 @@ const ToDo = () => {
     const deletebtn = id => {
         const ask = window.confirm('Are sure to delete')
         if (ask) {
-            const url = `https://whispering-wildwood-58003.herokuapp.com/${id}`
+            const url = `https://task-management-ixa4.onrender.com/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
