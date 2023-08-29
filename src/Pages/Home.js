@@ -5,11 +5,13 @@ import useApi from '../hooks/useApi';
 
 const Home = () => {
     const [todos] = useApi()
+    console.log(todos)
     const navigate = useNavigate()
     const postnote = (event) => {
         const taskName = event.target.note.value
         const postToDo = { taskName }
         const url = `https://task-management-ixa4.onrender.com/`
+        console.log(url)
         fetch(url, {
             method: 'POST',
             headers: {
@@ -20,7 +22,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => {
                 //toast('Your Product Successfully Added');
-                //console.log(data);
+                console.log(data);
             })
         event.preventDefault()
         event.target.reset()

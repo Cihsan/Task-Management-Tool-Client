@@ -29,7 +29,7 @@ const ToDo = () => {
     const deletebtn = id => {
         const ask = window.confirm('Are sure to delete')
         if (ask) {
-            const url = `https://task-management-ixa4.onrender.com/${id}`
+            const url = `https://task-management-ixa4.onrender.com/to-do/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

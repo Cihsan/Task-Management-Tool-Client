@@ -4,7 +4,7 @@ const CompleteTask = () => {
     const [tasks, setTasks] = useState([])
     const { status } = tasks
     useEffect(() => {
-        const url = `https://task-management-ixa4.onrender.com?status=${status}`
+        const url = `https://task-management-ixa4.onrender.com/to-do?status=${status}`
         fetch(url, {
             method: 'GET',
         })

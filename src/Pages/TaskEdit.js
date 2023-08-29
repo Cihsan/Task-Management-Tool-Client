@@ -6,7 +6,7 @@ const TaskEdit = () => {
     const [task, settask] = useState([])
     console.log(task);
     useEffect(() => {
-        fetch(`https://task-management-ixa4.onrender.com/${id}`)
+        fetch(`https://task-management-ixa4.onrender.com/to-do/${id}`)
             .then(res => res.json())
             .then(data => settask(data))
     }, [task,id])
@@ -15,7 +15,7 @@ const TaskEdit = () => {
 
         //console.log(taskNam);
 
-        const url = `https://task-management-ixa4.onrender.com/${id}`
+        const url = `https://task-management-ixa4.onrender.com/to-do/${id}`
         fetch(url, {
             method: 'PUT',
             body: JSON.stringify({ taskName }),
