@@ -9,7 +9,7 @@ const Home = () => {
     const postnote = (event) => {
         const taskName = event.target.note.value
         const postToDo = { taskName }
-        const url = `https://whispering-wildwood-58003.herokuapp.com`
+        const url = `https://task-management-ixa4.onrender.com/`
         fetch(url, {
             method: 'POST',
             headers: {
